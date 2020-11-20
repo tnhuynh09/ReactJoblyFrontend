@@ -1,0 +1,27 @@
+.Company {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Company-title {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-self: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.Company-title h2 {
+    text-align: start;
+}
+
+.Company-title p {
+    text-align: start;
+}
+
+.Company-jobs {
+    width: 75%;
+    align-self: center;
+}

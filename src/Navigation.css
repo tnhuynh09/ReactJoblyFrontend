@@ -1,0 +1,32 @@
+.Navigation {
+    padding: 0 10px 10px 10px;
+    overflow: hidden;
+    background-color:white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+  
+.Navigation a {
+    float: left;
+    color: #007bff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.Navigation a:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+  
+.Navigation-navBar a.active {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+.nav-item {
+    float: right;
+}

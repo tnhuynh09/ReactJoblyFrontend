@@ -1,0 +1,12 @@
+.Jobs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Jobs-card, .Jobs p {
+    width: 75%;
+    align-self: center;
+    text-align: left;
+    margin-top: 2rem;
+}
