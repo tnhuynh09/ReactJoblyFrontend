@@ -3,6 +3,7 @@ import { TOKEN_LOCALSTORAGE } from "./App.js"
 
 const BASE_URL = process.env.BASE_URL || "http://localhost:3001";
 
+
 class JoblyApi {
     static async request(endpoint, paramsOrData = {}, verb = "get") {
         // paramsOrData._token = ( // for now, hardcode token for "testing"
