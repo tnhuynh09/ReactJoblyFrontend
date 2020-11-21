@@ -3,6 +3,7 @@ import { TOKEN_LOCALSTORAGE } from "./App.js"
 
 const BASE_URL = process.env.BASE_URL || "http://localhost:3001";
 // const BASE_URL = "https://tnhuynh-react-jobly-backend.herokuapp.com";
+console.log("JoblyApi - BASE_URL =", BASE_URL);
 
 class JoblyApi {
     static async request(endpoint, paramsOrData = {}, verb = "get") {
